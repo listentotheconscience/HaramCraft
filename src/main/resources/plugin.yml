@@ -1,0 +1,6 @@
+name: HaramCraft
+version: ${project.version}
+main: me.listetotheconscience.haramcraft.HaramCraft
+api-version: 1.17
+authors: [ listentotheconscience ]
+description: HaramCraft
