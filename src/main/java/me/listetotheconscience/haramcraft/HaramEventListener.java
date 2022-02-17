@@ -21,7 +21,7 @@ public class HaramEventListener implements Listener {
     public void onConsumeItem(PlayerItemConsumeEvent event) {
         Material id = event.getItem().getType();
         Player player = event.getPlayer();
-        if (haramFood(id) && isPlayerSeesSky(player)) {
+        if (haramFood(id) /* && isPlayerSeesSky(player) */) {
             haramMoment(player);
         }
     }
